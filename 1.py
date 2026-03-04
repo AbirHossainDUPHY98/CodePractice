@@ -8,14 +8,14 @@ def factorial_iteration(n):
     for i in range(0,n):
         result = result * (i+1)
     return result
-print(factorial_iteration(n))  
+print(f"The value of factorial through iteration: factorial_iteration(n)")  
 
 def factorial_recursion(n):
     if n == 0:
         return 1
     else:
         return n*factorial_recursion(n-1)
-print(factorial_recursion(n))
+print(f"The value of factorial through recustion: factorial_recursion(n)")
 
 start = time.perf_counter()
 for i in range(10000):
@@ -38,3 +38,7 @@ if iterative_time < recursive_time:
     print(f"Iterative time is faster by {recursive_time - iterative_time} s")
 else:
     print(f"Recursive time is faster by {iterative_time - recursive_time} s")
+
+# Iteration is generally faster, because:
+#     No call overhead.
+#     Fixed memory use.
