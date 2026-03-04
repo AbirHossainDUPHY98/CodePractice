@@ -15,6 +15,9 @@ def fib_plain(n):
     if n <= 1:
         return n
     return fib_plain(n-1) + fib_plain(n-2)
+# F(n) = F(n-1) + F(n-2) for n > 1
+# If n = 0: returns 0 (F(0) = 0)
+# If n = 1: returns 1 (F(1) = 1)
 
 # Recursive Fibonacci with lru_cache
 @lru_cache(maxsize=None)
