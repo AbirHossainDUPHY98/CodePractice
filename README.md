@@ -1,9 +1,11 @@
-# CodePractice Repository
-This repository contains my practice problems and solutions.  
-Specifically practice for computational-science,data-science workflow.  
-More specifically some C++, some Julia, some Python codes.  
+# This Repository 
+This repository contains my practice problems and solutions.    
+Specifically practice for **computational-science,data-science** workflow.    
+More specifically some `C++`, some `Julia`, some `Python` codes.  
 
-I have tried to learn syntax, concepts, logics, technologies, norms ranging in fields-
+#### Questions of each problem can be found: commented out at the beginning of every code. 
+
+I have tried to learn syntax, concepts, logics, technologies, norms. Specific topics I tried to address in these problems:
 
   - Language Basics & Syntax Fluency  
   - Convenience & Productivity Features  
@@ -14,12 +16,12 @@ I have tried to learn syntax, concepts, logics, technologies, norms ranging in f
   - Data Manipulation & Handling  
   - Pipelines & Workflow Automation  
   - Scripting: When & Where to Use  
-  -  Integration & Interoperability  
+  - Integration & Interoperability  
  
  here up until February/2026.  
 
-I have tired to choose the language in a periodic order for every kind of problem, idea was to cover more ground on everything.  
-I would say it worked somewhat and I know a lot more than when I started.  
+I have tired to choose the language in a periodic order for every kind of problem, idea was to cover more ground on everything.    
+I would say it worked somewhat and I know a lot more than when I started.     
 Had some nice adrenaline hits from things like-  
 - Brownian Motion,
 - Particle system simulations,
